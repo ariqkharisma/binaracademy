@@ -46,5 +46,5 @@ console.log(stringSearch.search(/Search/i));
 
 const email1 = 'tisamonita@gmail.com';
 const email2 = 'tisa.com'
-console.log(email1.search(/(\w+@)(\w+\.com)/));
-console.log(email2.search(/(\w+@)(\w+\.com)/));
+console.log(email1.search(/(\w+@)(\w+\.\w+)/));
+console.log(email2.search(/(\w+@)(\w+\.\w+)/));
