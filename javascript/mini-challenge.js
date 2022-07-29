@@ -26,6 +26,7 @@ function ganjilGenap(str) {
 
 console.log(ganjilGenap(""));
 console.log(ganjilGenap(1234, 4567));
+console.log(ganjilGenap([1234, 4567, 7689]))
 console.log(ganjilGenap());
 console.log(ganjilGenap("1234; 2345; 6789; 9543"));
 console.log(ganjilGenap("1235; 5319; 6857"));
